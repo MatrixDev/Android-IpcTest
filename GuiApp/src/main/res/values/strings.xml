@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">IpcTest</string>
+
+    <string name="main_type1">bindService</string>
+    <string name="main_type2">CP Proxy</string>
+    <string name="main_type3">CP Invokes</string>
+    <string name="main_send">Send</string>
+    <string name="main_requestsCount">Get count</string>
+    <string name="main_crash">Crash service process</string>
+
+</resources>

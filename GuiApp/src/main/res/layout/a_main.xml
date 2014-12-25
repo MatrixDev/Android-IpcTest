@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+		xmlns:android="http://schemas.android.com/apk/res/android"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:orientation="vertical"
+		android:gravity="center"
+		android:padding="40dp">
+
+	<TableLayout
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content">
+
+		<TableRow>
+
+			<TextView
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:text="@string/main_type1"
+					/>
+
+			<Button
+					android:id="@+id/send_async_1"
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:layout_marginBottom="20dp"
+					android:text="@string/main_send"
+					/>
+
+			<Button
+					android:id="@+id/requests_count_1"
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:text="@string/main_requestsCount"
+					/>
+
+		</TableRow>
+
+		<TableRow>
+
+			<TextView
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:text="@string/main_type2"
+					/>
+
+			<Button
+					android:id="@+id/send_async_2"
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:layout_marginBottom="20dp"
+					android:text="@string/main_send"
+					/>
+
+			<Button
+					android:id="@+id/requests_count_2"
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:text="@string/main_requestsCount"
+					/>
+
+		</TableRow>
+
+		<TableRow>
+
+			<TextView
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:text="@string/main_type3"
+					/>
+
+			<Button
+					android:id="@+id/send_async_3"
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:layout_marginBottom="20dp"
+					android:text="@string/main_send"
+					/>
+
+			<Button
+					android:id="@+id/requests_count_3"
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:text="@string/main_requestsCount"
+					/>
+
+		</TableRow>
+
+	</TableLayout>
+
+	<Button
+			android:id="@+id/crash"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:text="@string/main_crash"
+			/>
+
+</LinearLayout>
