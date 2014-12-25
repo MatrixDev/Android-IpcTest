@@ -17,7 +17,6 @@ android {
     buildToolsVersion "21.1.2"
 
     defaultConfig {
-        applicationId "com.ipctest.guiapp"
         minSdkVersion 14
         targetSdkVersion 19
         versionCode 1

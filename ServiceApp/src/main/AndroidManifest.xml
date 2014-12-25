@@ -1,5 +1,5 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-		  package="com.serviceapp.app">
+		  package="dev.matrix.ipctest.service">
 
 	<application
 			android:name=".App"
@@ -9,13 +9,13 @@
 			android:theme="@style/AppTheme">
 
 		<service
-				android:name=".WildfireCentralService"
+				android:name=".CentralService"
 				android:exported="true"
 				/>
 
 		<provider
-				android:name=".WildfireCentralProvider"
-				android:authorities="com.wildfire.central"
+				android:name=".CentralProvider"
+				android:authorities="dev.matrix.central"
 				android:exported="true"
 				/>
 
